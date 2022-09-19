@@ -6,7 +6,7 @@ module.exports = {
     uniqueName: "profile",
   },
   optimization: {
-    runtimeChunk: 'single',
+    runtimeChunk: false,
   },
   plugins: [
     new ModuleFederationPlugin({
